@@ -38,8 +38,13 @@ function buttonsCreation() {
     div.innerHTML = keyboard[i].keyRu;
     div_border.appendChild(div);
   }
+  let note = document.createElement('p');
+  note.innerHTML = 'Shift + Ctrl - переключение между языками';
+  div_border.appendChild(note);
 }
 buttonsCreation();
+
+
 
 function buttonPress() {
   window.addEventListener("keydown", function(event) {
