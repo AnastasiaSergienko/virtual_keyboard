@@ -14,7 +14,7 @@ body {
   text-align: center;
 }
 .entryField {
-  width: 100%;
+  width: 95%;
   height: calc(10 * (2.25rem + 2px));
   padding: 0.375rem 0.75rem;
   background-color: #ffecec;

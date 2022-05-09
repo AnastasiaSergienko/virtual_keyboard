@@ -13,22 +13,8 @@ function objectCreation() {
       keyEn: keyboardKeyEn[index],
     }
   });
-  // console.log(keyboard);
 }
 objectCreation();
-
-// function objectCreation() {
-//   for (let i = 0; i < keyboardCode.length; i++) {
-//     keyboard[i] = {
-//       code: keyboardCode[i],
-//       keyRu: keyboardKeyRu[i],
-//       keyEn: keyboardKeyEn[i],
-//     }
-//   }
-  // console.log(keyboard);
-// }
-// objectCreation();
-
 
 const div_border = document.createElement('div');
 const textarea = document.createElement('textarea');
@@ -110,7 +96,6 @@ function buttonPressScreen() {
         case '':
 
           break;
-        // default
       }
 
     });
@@ -121,9 +106,3 @@ buttonPressScreen();
 
 
 
-
-// let arr = [];
-// window.addEventListener("keydown", function(event) {
-//   arr.push(event.code);
-//   console.log(arr);
-// }, true);
