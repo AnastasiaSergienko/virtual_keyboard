@@ -101,6 +101,9 @@ function buttonPressScreen() {
         case 'Enter':
           document.querySelector('textarea').value += "\n";
           break;
+        case 'Delete':
+            
+          break;
       }
     });
   }
